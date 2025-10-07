@@ -9,7 +9,7 @@ def main():
   total = 0
 
   
-  for e in (range(1, 100000)):
+  for e in (range(1, 50000)):
       if NumberTests.isPrime(e):
           if 600851475143 % e == 0:
               total = e

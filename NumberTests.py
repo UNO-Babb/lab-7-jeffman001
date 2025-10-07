@@ -15,7 +15,7 @@ def isPrime(p):
   for pr in knownPrimes:
     if pr == p:
       return True
-  for i in digit[2:20]:
+  for i in digit[2:10]:
     if p % i == 0:
       return False
   return True
